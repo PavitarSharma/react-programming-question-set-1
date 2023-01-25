@@ -17,7 +17,5 @@ function longestCommonSubstring(text1, text2) {
 const string1 = "Pavitar"
 const string2 = "NewSite"
 
-const m = string1.length
-const n = string2.length
 
-console.log(longestCommonSubstring(string1, string2, m, n))
+console.log(longestCommonSubstring(string1, string2))
